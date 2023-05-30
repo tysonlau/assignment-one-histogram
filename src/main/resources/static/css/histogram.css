@@ -1,0 +1,85 @@
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+section {
+    padding: 10px;
+    /*height: 1151px;
+    width: 696px;*/
+    border: 1px solid #e9eff1;
+    background-color: #e9eff1;
+    margin: 10px 10px 10px 10px;
+}
+
+h3{
+    color: #b5131a;
+    font-weight: bolder;
+    font-size:18pt;
+}
+
+.sec1 {
+    height: 1051px;
+    width: 596px;
+    float: left;
+} 
+
+.sec2 {
+    height: 667px;
+    width: 559px;
+    float: right;
+} 
+
+.sec3 {
+    height: 345px;
+    width: 559px;
+    float: right;
+} 
+/*.sec1, .sec2 {
+    color: #e9eff1;
+    float: left;
+}*/
+
+tr {
+    font-size:14pt;
+}
+
+/*#fname {
+    height:50px;
+    width: 120px;
+    margin: 10px 10px 10px 10px;
+}*/
+
+input[name="fname"] {
+    height:40px;
+    width: 120px;
+    margin: 15px 15px 15px 15px;
+}
+
+[name="out"] {
+    text-align: left;
+}
+
+#nGrade {
+    height:40px;
+    width: 280px;
+}
+
+#err {
+    font-size:12pt;
+    color: #E10600;
+    margin: -20px -25px -25px -20px;
+}
+
+#errG {
+    font-size:14pt;
+    color: #E10600;
+    margin: 15px 15px 15px 15px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+}
